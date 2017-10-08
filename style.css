@@ -1,0 +1,42 @@
+body {
+    background-color: #6ADA08;
+    color: #0738C0;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 { 
+    font-size: 60px;
+    font-style: italic;
+    text-transform: uppercase;
+    color: orange;
+    background-color:red;
+}
+#btn {
+    padding: 12px 40px 12px 40px;
+    background-color: #EC0914;
+    border-radius: 5px;
+    color: #0A23AF;
+}
+#btn1 {
+    padding: 16px 35px 16px 40px;
+    background-color: #DF590C;
+    border-radius: 7px;
+    color: #100CDB;
+    font-size: 25px; 
+    font-style: italic;
+    text-transform: inherit;
+}
+h4 { 
+    font-size: 81px;
+    font-style: italic;
+    text-transform: lowercase;
+}#btn2 {
+    padding: 15px 35px 19px 46px;
+    background-color: #0CDFA0;
+    border-radius: 7px;
+    color: #A30C0C;
+    font-size: 40px; 
+    font-style: normal;
+    text-transform: capitalize;
+}
