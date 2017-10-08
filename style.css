@@ -5,13 +5,19 @@ body {
     text-align: center;
 }
 
-h1 { 
+h1 {
     font-size: 60px;
     font-style: italic;
     text-transform: uppercase;
     color: orange;
     background-color:red;
+    transition: transform .5s ease;
 }
+
+h1:hover {
+  transform: scale(1.2);
+}
+
 #btn {
     padding: 12px 40px 12px 40px;
     background-color: #EC0914;
@@ -23,20 +29,29 @@ h1 {
     background-color: #DF590C;
     border-radius: 7px;
     color: #100CDB;
-    font-size: 25px; 
+    font-size: 25px;
     font-style: italic;
     text-transform: inherit;
 }
-h4 { 
+h4 {
     font-size: 81px;
     font-style: italic;
     text-transform: lowercase;
-}#btn2 {
+}
+#btn2 {
     padding: 15px 35px 19px 46px;
     background-color: #0CDFA0;
     border-radius: 7px;
     color: #A30C0C;
-    font-size: 40px; 
+    font-size: 40px;
     font-style: normal;
     text-transform: capitalize;
+}
+
+.text-1 {
+  color: white;
+}
+
+#btn2:hover {
+  background-color: #99a30c;
 }
